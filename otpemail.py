@@ -7,6 +7,7 @@ now=datetime.datetime.now()
 date=now.strftime('%y-%m-%d %H:%M:%S')
 conn=sqlite3.connect('Test.db')
 print("opened successfully")
+#Enable the following line for one time to create a table in database and them make it as a comment
 #conn.execute('''CREATE TABLE DData(NAME TEXT,EMAIL VARCHAR(600),DATETIME REAL,VERIFY NUMBER)''')
 #print("created successfully")
 root=Tk()
